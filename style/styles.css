@@ -1,0 +1,39 @@
+/*.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}*/
+
+body {
+  background-color: #272822;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 290px;
+  margin: 5px;
+  border: 8px solid #2A75BB;
+  border-radius: 10px;
+  background-color: #FFE9CC;
+}
+
+.thumbnail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  border-radius: 5px;
+}
+
+svg {
+  background: white;
+}
+
+g {
+  position: absolute !important;
+  height: 10px !important;
+}
